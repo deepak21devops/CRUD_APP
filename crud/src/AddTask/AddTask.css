@@ -1,0 +1,92 @@
+.addTaskWrapper{
+    padding-bottom: 140px;
+}
+.header{
+    display: flex;
+    margin: 0 auto;
+    width: 375px;
+    height: 80px;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center ;
+}
+.addTask-title{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #1AB8DB;
+    text-transform: uppercase;
+}
+.addTask-logo img{
+    display: block;
+    margin: 0 auto  ;
+    margin-top: 45px;
+}
+form{
+    display: block;
+    margin: 0 auto;
+    width: 345px;
+    margin-top: 50px;
+}
+.inputTitle {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: black;
+}
+label{
+    display: block;
+    margin-top: 25px;
+}
+input{
+    width: 320px;
+    height: 50px;
+    border-radius: 10px;
+    border: #1AB8DBD9 solid 1px;
+    margin-top: 10px;
+    
+}
+input::placeholder {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #000;
+}
+input:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.buttons{
+    margin-top: 44px;
+    width: 305px;
+    display: flex;
+    justify-content: space-between;
+}
+.add-btn{
+    height: 40px;
+    width: 106px;
+    border-radius: 20px;
+    border: none;
+    background-color: #1AB8DB;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+}
+.cancel-btn{
+    height: 40px;
+    width: 106px;
+    border-radius: 20px;
+    border: none;
+    background-color: #FF0000;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+}
